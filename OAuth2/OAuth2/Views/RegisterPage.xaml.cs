@@ -9,14 +9,11 @@ using Xamarin.Forms.Xaml;
 
 namespace OAuth2.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class LoginPage : ContentPage
+	public partial class RegisterPage : ContentPage
 	{
-		public LoginPage ()
+		public RegisterPage ()
 		{
 			InitializeComponent ();
 		}
-
-       
-    }
+	}
 }
