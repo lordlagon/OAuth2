@@ -1,4 +1,5 @@
-﻿using AppOAuth.Models;
+﻿using Newtonsoft.Json;
+using OAuth2.Models;
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -26,7 +27,7 @@ namespace OAuth2.Services
 
                 return response.IsSuccessStatusCode;
             }
-            catch (Exception)
+            catch (Exception e)
             {
                  throw;
             }

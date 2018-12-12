@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AppOAuth.Models
+namespace OAuth2.Models
 {
     public class RegisterBindingModel
     {
